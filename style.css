@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: #222;
+}
+
+.container {
+    width: 100%;
+    background: #222;
+    padding: 40px;  
+}
+.resultado{
+    background-color: #fff;
+    padding: 50px;
+    width: 395px;
+}
+
+
+.numeros-container {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px 100px;
+    border: 2px solid #48e;
+}
+
+.numeros-container button {
+    background-color: #fff;
+    color: #666;
+    font-size: 30px;
+    border: none;
+    
+}
+
+#boton-igual{
+    grid-column: 2/span 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+.numeros button:hover{
+    background-color: #48e;
+}
